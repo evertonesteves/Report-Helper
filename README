@@ -1,8 +1,7 @@
+# Descrição
 Helper para montar tela de relatório utilizando o framework CakePHP
-Desenvolvido por Alberto Leal - albertonb@gmail.com
-Atualizado por Carlos Spineli
 
-## Forma de Utilização:
+# Forma de Utilização:
 
 	$campos = array(
 		"Label do Campo"=>"Model.nome_do_campo",
@@ -11,3 +10,12 @@ Atualizado por Carlos Spineli
 	);
 	echo $report->show($dados,$campos,"mensagem", $paginate);
 
+
+# Quem está por traz disso?
+
+1. Alberto Leal 
+2. Carlos Spineli
+
+# Dúvidas e/ou Sugestões?
+
+Envie-nos suas dúvidas e/ou sugestões
